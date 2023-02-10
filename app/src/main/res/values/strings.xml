@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Square App</string>
+    <string name="img_description">Employee image</string>
+    <string name="something_wrong">Uh-oh! Something isn\'t right!</string>
+    <string name="swipe_to_refresh">Swipe to refresh data</string>
+</resources>
