@@ -50,7 +50,8 @@ class EmployeeItemViewHolder(private val view: View) : RecyclerView.ViewHolder(v
         Glide.with(view)
             .load(item.url)
             .circleCrop()
-            .diskCacheStrategy(DiskCacheStrategy.ALL)
+            .diskCacheStrategy(DiskCacheStrategy.DATA)
+            .placeholder(R.drawable.baseline_account_circle_24)
             .into(imgView)
     }
 
